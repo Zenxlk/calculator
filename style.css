@@ -1,0 +1,22 @@
+/* Estilos para botnes */
+
+.btn {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Estilos para botones de pagina y los botones */
+
+.active, .btn:hover {
+  background-color: #000000;
+}
+
+/* Estilos para el contenedor de los botones */
+
+.btnContainer {
+  margin-top: 20px;
+}
