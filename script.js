@@ -43,7 +43,11 @@ botones.forEach(function(boton) {
 // Obtén una referencia al botón con id "borrar"
 var borrar = document.getElementById('borrar');
 
-// Agrega un evento de click al botón "borrar" y actualizar contenido
+// Agrega un evento de click al botón "borrar" y actualizar contenido y borrar lo escrito en la calculadora
+
+borrar.addEventListener('click', function() {
+    operacion.textContent = '';
+});
 
 // Obtén una referencia al botón con id "calcular"
 

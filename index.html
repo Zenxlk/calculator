@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <h1>Calculadora</h1>
 
     <!-- Pantalla de numeros y operaciones -->
 
     <div class="pantalla">
-        <p id="operacion"></p>
+      <p id="operacion"></p>
     </div>
 
     <!-- Creacion de botones de la calculadora por medio de JS-->
     <div>
+      <div class="button-container">
         <button id="btn1" class="btn">1</button>
         <button id="btn2" class="btn">2</button>
         <button id="btn3" class="btn">3</button>
@@ -34,13 +34,13 @@
         <button id="btnDivision" class="btn">/</button>
         <button id="btnIgual" class="btn">=</button>
         <button id="btnBorrar" class="btn">C</button>
+      </div>
     </div>
     <!-- Creacion de input para mostrar los resultados -->
     <div>
-        <input type="text" id="resultado" class="resultado">
+      <input type="text" id="resultado" class="resultado" />
     </div>
     <!-- Creacion de script para el funcionamiento de la calculadora -->
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>
